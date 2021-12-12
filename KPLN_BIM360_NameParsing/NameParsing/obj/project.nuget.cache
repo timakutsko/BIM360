@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DXIT7ingMOQa7eoPU5gXKtYDa3QcV9wzoIFxjjHBbcOU19UcKdBCbQ9J/l7KtyjKtVUTlDSlm8qxZW98KK1wVw==",
+  "success": true,
+  "projectFilePath": "E:\\MyGitHub\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\timak\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
+    "C:\\Users\\timak\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.6900\\selenium.webdriver.chromedriver.95.0.4638.6900.nupkg.sha512"
+  ],
+  "logs": []
+}
