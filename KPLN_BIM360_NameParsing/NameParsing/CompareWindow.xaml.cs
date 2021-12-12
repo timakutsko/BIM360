@@ -1,8 +1,10 @@
-﻿using System;
+﻿using NameParsing.ParsingData;
+using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
+
 
 namespace NameParsing
 {
@@ -16,35 +18,41 @@ namespace NameParsing
             InitializeComponent();
         }
 
-        public void AddRowData(string str1, string str2, int count, int damLevDist)
+        public void AddRowData(LinkedList<SimilarData> sDataList)
         {
-            // Создание новой строки в окне
-            RowDefinition newRow = new RowDefinition();
-            newRow.Height = new GridLength(50);
-            MainGrid.RowDefinitions.Add(newRow);
-
-            // Добавление картинки для кнопки
-            BitmapImage btm = new BitmapImage();
-            Image img = new Image();
-            if (damLevDist > 0)
+            int rowCount = 0;
+            foreach(SimilarData sData in sDataList)
             {
-                BTMSet("/Resource/nextIcon.png", btm);
-            }
-            else
-                BTMSet("/Resource/equalIcon.png", btm);
-            {
-            }
-            img.Source = btm;
+                // Создание новой строки в окне
+                RowDefinition newRow = new RowDefinition();
+                newRow.Height = new GridLength(50);
+                MainGrid.RowDefinitions.Add(newRow);
 
-            // Заполнение первого элемента
-            TextBox tBox1 = new TextBox();
-            tBox1.Text = str1;
-            AddTBox(tBox1, count, 0, TextAlignment.Right, img);
+                // Добавление картинки для кнопки
+                BitmapImage btm = new BitmapImage();
+                Image img = new Image();
+                if (sData.DLDistance > 0)
+                {
+                    BTMSet("/Resource/nextIcon.png", btm);
+                }
+                else
+                    BTMSet("/Resource/equalIcon.png", btm);
+                {
+                }
+                img.Source = btm;
+
+                // Заполнение первого элемента
+                TextBox tBox1 = new TextBox();
+                tBox1.Text = sData.SimilarNames[0];
+                AddTBox(tBox1, rowCount, 0, TextAlignment.Right, img);
             
-            // Заполнение второго элемента
-            TextBox tBox2 = new TextBox();
-            tBox2.Text = str2;
-            AddTBox(tBox2, count, 2, TextAlignment.Left, img);
+                // Заполнение второго элемента
+                TextBox tBox2 = new TextBox();
+                tBox2.Text = sData.SimilarNames[1];
+                AddTBox(tBox2, rowCount, 2, TextAlignment.Left, img);
+
+                rowCount++;
+            }
 
         }
 

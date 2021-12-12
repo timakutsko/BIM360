@@ -28,6 +28,7 @@ namespace NameParsing.ParsingData
                     namesList.Add(fileName);
                 }
             }
+            namesList.Sort();
             return namesList;
         }
     }

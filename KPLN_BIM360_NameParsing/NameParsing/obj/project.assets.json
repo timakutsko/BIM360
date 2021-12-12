@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "E:\\MyGitHub\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+      "projectUniqueName": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
       "projectName": "NameParsing",
-      "projectPath": "E:\\MyGitHub\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+      "projectPath": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
       "packagesPath": "C:\\Users\\timak\\.nuget\\packages\\",
-      "outputPath": "E:\\MyGitHub\\KPLN_BIM360_NameParsing\\NameParsing\\obj\\",
+      "outputPath": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

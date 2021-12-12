@@ -46,17 +46,17 @@ namespace NameParsing.ParsingData
             var rows = driver.FindElements(By.XPath(".//div[@class='wqxd5v-0 fvjxLo DocumentNameCell__data-text']"));
 
             //Сбор информации
-            List<string> nameList = new List<string>();
+            List<string> namesList = new List<string>();
             for (int i = 0; i < rows.Count; i++)
             {
                 IWebElement row = rows[i];
                 if (extensions.Any(s => row.Text.EndsWith(s)))
                 {
-                    nameList.Add(row.Text);
+                    namesList.Add(row.Text);
                 }
             }
-            nameList.Sort();
-            return nameList;
+            namesList.Sort();
+            return namesList;
         }
         
         private static void WebOnBtnClick(IWebDriver drv, string xpath, int sensivity)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NameParsing.ParsingData
 {
-    class SimilarData
+    public class SimilarData
     {
         public int DLDistance { get; set; }
 
