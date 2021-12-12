@@ -71,18 +71,18 @@ namespace NameParsing
             File.WriteAllText(FilePath, json);
 
             // Обработка BIM360
-            /*
             BIM360Data bim360 = new BIM360Data(emailDef.Text, passwDef.Password, urlDef.Text, Convert.ToInt32(slider.Value));
             List<string> namesBIM360 = bim360.Names(userExt);
-            */
+            /*
             List<string> namesBIM360 = new List<string> { "СН17_ПП_АР.rvt", "СН17_ПП_АР_Фасад.rvt", "СН17_ПП_КР.rvt" };
+            */
 
             // Обработка пользовательской папки
             DIRData userDir = new DIRData(dirDef.Text);
             List<string> namesDIR = userDir.Names(userExt);
 
             // Сравнение имен файлов
-            NamesCompare.Compare(namesBIM360, namesDIR);
+            NamesCompare.Compare(namesBIM360, namesDIR, dirDef.Text);
             
             //Закрытие основного окна
             this.Close();

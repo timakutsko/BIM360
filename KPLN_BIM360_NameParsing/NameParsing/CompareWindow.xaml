@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NameParsing"
         mc:Ignorable="d"
-        Height="350" Width="600">
+        Title = "KPLN. BIM360. Список несовпадений" Height="350" Width="600">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Times New Roman" />
@@ -27,6 +27,18 @@
     <Grid>
         <ScrollViewer>
             <StackPanel>
+                <Grid x:Name="MainName">
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center">
+                        <Run>Данные имена файлов - </Run>
+                        <Run FontWeight="Bold">не совпадают!</Run>
+                    </TextBlock>
+                </Grid>
                 <Grid x:Name="MainGrid">
                     <Grid.RowDefinitions>
                         <RowDefinition ></RowDefinition>

@@ -52,3 +52,5 @@ E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\
 E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\ref\NameParsing.dll
 E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.pdb
 E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.genruntimeconfig.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.g.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.baml

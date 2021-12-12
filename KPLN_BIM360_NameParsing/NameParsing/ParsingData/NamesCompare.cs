@@ -5,16 +5,21 @@ using System.Windows.Controls;
 
 namespace NameParsing.ParsingData
 {
+    /// <summary>
+    ///  Класс для инициализации проверки имен в бим360 и в папке пользователя
+    /// </summary>
     public static class NamesCompare
     {
-        public static void Compare(List<string> list1, List<string> list2)
+        public static void Compare(List<string> list1, List<string> list2, string dirPath)
         {
             // Открываю новое окно (для сравнения)
-            CompareWindow compareWind = new CompareWindow();
+            CompareWindow compareWind = new CompareWindow(dirPath);
             compareWind.Show();
 
             // Анализ имени файлов и заполнение окна сравнения
-            LinkedList<SimilarData> compDataList = new LinkedList<SimilarData>();
+            LinkedList<SimilarData> compDataList = new LinkedList<SimilarData>(); // Несовпадающие по именам по отношению к бим360
+            LinkedList<SimilarData> equalDataList = new LinkedList<SimilarData>(); // Полностью идентичные имена в папке и в бим360
+            LinkedList<SimilarData> newDataList = new LinkedList<SimilarData>(); // Новые файлы, которые в бим360 еще не грузились
             foreach (string str1 in list1)
             {
                 SimilarData sData = new SimilarData();
@@ -27,7 +32,9 @@ namespace NameParsing.ParsingData
                     if (str1.Equals(str2)) 
                     {
                         tempLenght = 0;
-                        tempStr2 = str2;
+                        sData.DLDistance = tempLenght;
+                        sData.SimilarNames = new string[] { str1, str2 };
+                        equalDataList.AddLast(sData);
                         break;
                     }
                     else
@@ -40,9 +47,13 @@ namespace NameParsing.ParsingData
                         }
                     }
                 }
-                sData.DLDistance = tempLenght;
-                sData.SimilarNames = new string[] { str1, tempStr2 };
-                AddSorted(compDataList, sData);
+                
+                if(tempLenght !=0 && tempLenght != 1000)
+                {
+                    sData.DLDistance = tempLenght;
+                    sData.SimilarNames = new string[] { str1, tempStr2 };
+                    AddSorted(compDataList, sData);
+                }
             }
 
             // Передача данных в пользовательское окно

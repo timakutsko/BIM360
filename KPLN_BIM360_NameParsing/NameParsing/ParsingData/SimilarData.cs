@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace NameParsing.ParsingData
 {
+    /// <summary>
+    ///  Класс для хранения данных для сравнения
+    /// </summary>
     public class SimilarData
     {
         public int DLDistance { get; set; }
