@@ -103,6 +103,7 @@ namespace NameParsing
             Grid.SetColumn(tBox, col);
             tBox.TextAlignment = tAligm;
             tBox.IsReadOnly = true;
+            tBox.Height = 50;
             _ = MainGrid.Children.Add(tBox);
 
         }

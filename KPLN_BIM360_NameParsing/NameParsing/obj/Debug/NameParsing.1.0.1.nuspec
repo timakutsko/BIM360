@@ -4,6 +4,7 @@
     <id>NameParsing</id>
     <version>1.0.1</version>
     <authors>Tsimafei Kutsko</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Check names in BIM360 and in user folder</description>
     <dependencies>
       <group targetFramework="net5.0-windows7.0">
@@ -18,7 +19,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.json" target="lib\net5.0-windows7.0\NameParsing.runtimeconfig.json" />
-    <file src="E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.dll" target="lib\net5.0-windows7.0\NameParsing.dll" />
+    <file src="Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.json" target="lib\net5.0-windows7.0\NameParsing.runtimeconfig.json" />
+    <file src="Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.dll" target="lib\net5.0-windows7.0\NameParsing.dll" />
   </files>
 </package>

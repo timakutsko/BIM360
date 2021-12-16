@@ -12,7 +12,7 @@ namespace NameParsing.ParsingData
         public string UserEmail { get; }
         public string UserPassword { get; }
         public int UserEthrnSensiv { get; }
-        public string LastProjectName { get; set; }
+
         private readonly IWebDriver driver;
         
         public BIM360Data(string email, string password, string url, int sensivityEhternet)
@@ -42,21 +42,39 @@ namespace NameParsing.ParsingData
             WebOnBtnClick(driver, ".//*[@id='verify_user_btn']/span", UserEthrnSensiv);
             WebOnTextInput(driver, ".//*[@id='password']", UserPassword);
             WebOnBtnClick(driver, ".//*[@id='btnSubmit']", UserEthrnSensiv * UserEthrnSensiv/100);
-            LastProjectName = driver.FindElement(By.XPath(".//*[@id='dm-react-shared-container']/div/div[9]/header/div[1]/div[2]/div[2]/div/div/button/span[1]")).Text;
-            var rows = driver.FindElements(By.XPath(".//div[@class='wqxd5v-0 fvjxLo DocumentNameCell__data-text']"));
+            // Старая версия - вывод строк
+            //var rows = driver.FindElements(By.XPath(".//div[@class='wqxd5v-0 fvjxLo DocumentNameCell__data-text']"));
+            var rows = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']/div/div"));
+            var rows1 = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']"))[0].GetAttribute("height");
+
+            string[] rowsStream = rows[0].Text.Split("\r\n");
+
 
             //Сбор информации
             List<string> namesList = new List<string>();
+            foreach (string str in rowsStream)
+            {
+                var t = str;
+                if (extensions.Any(s => str.EndsWith(s)))
+                {
+                    namesList.Add(str);
+                }
+            }
+            namesList.Sort();
+            return namesList;
+            
+            // Старая версия - вывод строк
+            /*
             for (int i = 0; i < rows.Count; i++)
             {
                 IWebElement row = rows[i];
+                var t = row.Text;
                 if (extensions.Any(s => row.Text.EndsWith(s)))
                 {
                     namesList.Add(row.Text);
                 }
             }
-            namesList.Sort();
-            return namesList;
+            */
         }
         
         private static void WebOnBtnClick(IWebDriver drv, string xpath, int sensivity)

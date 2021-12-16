@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eh7zYUzQiRk5HSlv9IjOjCeYnXfwIqL42dTMHoJYbhTvUaQzdh9D0o0g0ddPEGVATtVjhv1IYM+5SQl1p0j2XA==",
+  "dgSpecHash": "P7XJdBmjenJq2N56+bm2C0mOhytawLO1RxfyD54DH/vCQkSN4ev6Z4d12YuLNyIZOkJE9NFBgYJQK1aFKs/7zQ==",
   "success": true,
-  "projectFilePath": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+  "projectFilePath": "Z:\\Отдел BIM\\03_Скрипты\\12_Repos\\BIM360_ParsingNames\\BIM360_ParsingNames\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\timak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\timak\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
-    "C:\\Users\\timak\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.6900\\selenium.webdriver.chromedriver.95.0.4638.6900.nupkg.sha512"
+    "C:\\Users\\tkutsko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\tkutsko\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
+    "C:\\Users\\tkutsko\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.6900\\selenium.webdriver.chromedriver.95.0.4638.6900.nupkg.sha512"
   ],
   "logs": []
 }
