@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\
 NameParsing
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\App.xaml
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\App.xaml
 3-1804479734
 
 102112114283
-195-1036456660
+195-756473556
 CompareWindow.xaml;MainWindow.xaml;test.xaml;
 
 False

@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,10 +30,9 @@ namespace NameParsing.ParsingData
             options.AddArguments("headless");
             driver = new ChromeDriver(cService, options);
             driver.Navigate().GoToUrl(url);
-            
             Thread.Sleep(sensivityEhternet);
         }
-        
+
         public List<string> Names(List<string> extensions)
         {
             // Парсинг сайта
@@ -41,40 +41,42 @@ namespace NameParsing.ParsingData
             WebOnTextInput(driver, ".//*[@id='userName']", UserEmail);
             WebOnBtnClick(driver, ".//*[@id='verify_user_btn']/span", UserEthrnSensiv);
             WebOnTextInput(driver, ".//*[@id='password']", UserPassword);
-            WebOnBtnClick(driver, ".//*[@id='btnSubmit']", UserEthrnSensiv * UserEthrnSensiv/100);
-            // Старая версия - вывод строк
-            //var rows = driver.FindElements(By.XPath(".//div[@class='wqxd5v-0 fvjxLo DocumentNameCell__data-text']"));
+            WebOnBtnClick(driver, ".//*[@id='btnSubmit']", UserEthrnSensiv * UserEthrnSensiv / 125);
+            var body = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']"));
             var rows = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']/div/div"));
-            var rows1 = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']"))[0].GetAttribute("height");
+            int rowsHeight = rows[0].Size.Height;
+            int rowHeight = rows[1].Size.Height;
+            int numbItems = rowsHeight / rowHeight;
+            int bodyHeight = body[0].Size.Height;
+            int numItemsOnWind = bodyHeight / rowHeight > numbItems ? numbItems : bodyHeight / rowHeight;
+            int numbScrolling = numbItems % numItemsOnWind == 0 ? numbItems / numItemsOnWind : numbItems / numItemsOnWind + 2;
 
-            string[] rowsStream = rows[0].Text.Split("\r\n");
-
-
-            //Сбор информации
+            //Сбор информации и скроллинг страницы
             List<string> namesList = new List<string>();
-            foreach (string str in rowsStream)
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            int step = 1;
+            do
             {
-                var t = str;
-                if (extensions.Any(s => str.EndsWith(s)))
+                string[] rowsStream = rows[0].Text.Split("\r\n");
+                foreach (string str in rowsStream)
                 {
-                    namesList.Add(str);
+                    if (extensions.Any(s => str.EndsWith(s)) && !namesList.Contains(str))
+                    {
+                        namesList.Add(str);
+                    }
                 }
+                if(numbScrolling > 1)
+                {
+                    IReadOnlyCollection<IWebElement> row = driver.FindElements(By.XPath($".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']/div/div/div[{numItemsOnWind + 1}]"));
+                    var b = row.First().Text;
+                    js.ExecuteScript("arguments[0].scrollIntoView(true);", row.First());
+                    rows = driver.FindElements(By.XPath(".//div[@class='MatrixTable__table MatrixTable__table-frozen-left']/div/div"));
+                }
+                step++;
             }
+            while (step <= numbScrolling);
             namesList.Sort();
             return namesList;
-            
-            // Старая версия - вывод строк
-            /*
-            for (int i = 0; i < rows.Count; i++)
-            {
-                IWebElement row = rows[i];
-                var t = row.Text;
-                if (extensions.Any(s => row.Text.EndsWith(s)))
-                {
-                    namesList.Add(row.Text);
-                }
-            }
-            */
         }
         
         private static void WebOnBtnClick(IWebDriver drv, string xpath, int sensivity)
