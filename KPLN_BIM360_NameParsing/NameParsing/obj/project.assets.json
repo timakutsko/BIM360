@@ -11,7 +11,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Selenium.WebDriver/4.0.1": {
+      "Selenium.WebDriver/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -23,7 +23,7 @@
           "lib/net5.0/WebDriver.dll": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/95.0.4638.6900": {
+      "Selenium.WebDriver.ChromeDriver/96.0.4664.4500": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -63,10 +63,10 @@
         "packageIcon.png"
       ]
     },
-    "Selenium.WebDriver/4.0.1": {
-      "sha512": "givS6L7wz4QupkyaNN7FwEl4trOHg1vfrSYmG0bGB3+QRPsDNcWUsbC70r6nB5JfbhNrKjZDPspAt0MYAB78Ig==",
+    "Selenium.WebDriver/4.1.0": {
+      "sha512": "d4smisz4a/wJCM2TzkKTl+BLfvZUTvaobhKElDfCVZlvY8ThsC8VAoBNWTlg1H/GGzIP//yVGko/W0FILTgkYA==",
       "type": "package",
-      "path": "selenium.webdriver/4.0.1",
+      "path": "selenium.webdriver/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -78,14 +78,14 @@
         "lib/net5.0/WebDriver.dll",
         "lib/netstandard2.0/WebDriver.dll",
         "lib/netstandard2.1/WebDriver.dll",
-        "selenium.webdriver.4.0.1.nupkg.sha512",
+        "selenium.webdriver.4.1.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/95.0.4638.6900": {
-      "sha512": "Ww2YdKyViCD6rmtobTH0TefSJsW0Fv3RYrQEjzAo7LcVeL5Me8ViI54stdC7jhjBcS7TXi8NZKMgRTIukH2HDw==",
+    "Selenium.WebDriver.ChromeDriver/96.0.4664.4500": {
+      "sha512": "7bH+2/bX4IqPXxnMsbD820pCb1DFLeESIbjpUL/Zgq5wfKJHTxtknrQ1wnlMJmWtbpoNcj6Zck7OfoIVstl3zQ==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/95.0.4638.6900",
+      "path": "selenium.webdriver.chromedriver/96.0.4664.4500",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -96,35 +96,35 @@
         "driver/mac64/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.95.0.4638.6900.nupkg.sha512",
+        "selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Selenium.WebDriver >= 4.0.1",
-      "Selenium.WebDriver.ChromeDriver >= 95.0.4638.6900"
+      "Selenium.WebDriver >= 4.1.0",
+      "Selenium.WebDriver.ChromeDriver >= 96.0.4664.4500"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\timak\\.nuget\\packages\\": {},
+    "C:\\Users\\tkutsko\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+      "projectUniqueName": "Z:\\Отдел BIM\\03_Скрипты\\12_Repos\\BIM360_ParsingNames\\BIM360_ParsingNames\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
       "projectName": "NameParsing",
-      "projectPath": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
-      "packagesPath": "C:\\Users\\timak\\.nuget\\packages\\",
-      "outputPath": "E:\\MyGitHub\\BIM360\\KPLN_BIM360_NameParsing\\NameParsing\\obj\\",
+      "projectPath": "Z:\\Отдел BIM\\03_Скрипты\\12_Repos\\BIM360_ParsingNames\\BIM360_ParsingNames\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+      "packagesPath": "C:\\Users\\tkutsko\\.nuget\\packages\\",
+      "outputPath": "Z:\\Отдел BIM\\03_Скрипты\\12_Repos\\BIM360_ParsingNames\\BIM360_ParsingNames\\KPLN_BIM360_NameParsing\\NameParsing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\timak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tkutsko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -153,11 +153,11 @@
         "dependencies": {
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.0.1, )"
+            "version": "[4.1.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[95.0.4638.6900, )"
+            "version": "[96.0.4664.4500, )"
           }
         },
         "imports": [
@@ -178,7 +178,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,8 +8,8 @@
     <description>Check names in BIM360 and in user folder</description>
     <dependencies>
       <group targetFramework="net5.0-windows7.0">
-        <dependency id="Selenium.WebDriver" version="4.0.1" exclude="Build,Analyzers" />
-        <dependency id="Selenium.WebDriver.ChromeDriver" version="95.0.4638.6900" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="96.0.4664.4500" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <frameworkReferences>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NameParsing"
         mc:Ignorable="d"
-        Title = "KPLN. BIM360" Height="450" Width="600">
+        Title = "KPLN. BIM360" Height="475" Width="600">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Times New Roman" />
@@ -54,7 +54,7 @@
                 <TextBlock Text="Скорость интернета:"/>
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="20 px"></RowDefinition>
+                        <RowDefinition Height="25 px"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
