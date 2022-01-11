@@ -73,6 +73,7 @@ namespace NameParsing.ParsingData
                 step++;
             }
             while (step <= numbScrolling);
+            driver.Quit();
             namesList.Sort();
             return namesList;
         }
