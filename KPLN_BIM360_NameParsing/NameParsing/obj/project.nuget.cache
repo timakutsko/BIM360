@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hJPzC5v5sS4ylFS1Ox5Uf07hfctvGUFG2wc1Q7MuBBHApAPCYuddYnGdvhq1xUjAEf1MGaveE1Z4j6nBkIwRlw==",
+  "success": true,
+  "projectFilePath": "Z:\\Отдел BIM\\03_Скрипты\\12_Repos\\BIM360_ParsingNames\\BIM360_ParsingNames\\KPLN_BIM360_NameParsing\\NameParsing\\NameParsing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tkutsko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\tkutsko\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\tkutsko\\.nuget\\packages\\selenium.webdriver.chromedriver\\96.0.4664.4500\\selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512"
+  ],
+  "logs": []
+}

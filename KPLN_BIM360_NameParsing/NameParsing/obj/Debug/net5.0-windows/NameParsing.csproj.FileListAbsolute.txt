@@ -1,0 +1,85 @@
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.exe
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.deps.json
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.json
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.dev.json
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\ref\NameParsing.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.pdb
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.AssemblyReference.cache
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\App.g.cs
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.cache
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.lref
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.g.resources
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfoInputs.cache
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfo.cs
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\ref\NameParsing.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.pdb
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.genruntimeconfig.cache
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\WebDriver.dll
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CopyComplete
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.g.cs
+E:\Обучение\C#\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.baml
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.exe
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.deps.json
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.json
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.dev.json
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\ref\NameParsing.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.pdb
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\WebDriver.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.AssemblyReference.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.g.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\App.g.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.lref
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.baml
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.baml
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.g.resources
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfoInputs.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfo.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CoreCompileInputs.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CopyComplete
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\ref\NameParsing.dll
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.pdb
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.genruntimeconfig.cache
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.g.cs
+E:\MyGitHub\BIM360\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.baml
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.exe
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.deps.json
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.json
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.runtimeconfig.dev.json
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\ref\NameParsing.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\NameParsing.pdb
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\bin\Debug\net5.0-windows\WebDriver.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csprojAssemblyReference.cache
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.g.cs
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.g.cs
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.g.cs
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\App.g.cs
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.cache
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing_MarkupCompile.lref
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\CompareWindow.baml
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\MainWindow.baml
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\test.baml
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.g.resources
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfoInputs.cache
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.AssemblyInfo.cs
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CoreCompileInputs.cache
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.csproj.CopyComplete
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\ref\NameParsing.dll
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.pdb
+Z:\Отдел BIM\03_Скрипты\12_Repos\BIM360_ParsingNames\BIM360_ParsingNames\KPLN_BIM360_NameParsing\NameParsing\obj\Debug\net5.0-windows\NameParsing.genruntimeconfig.cache

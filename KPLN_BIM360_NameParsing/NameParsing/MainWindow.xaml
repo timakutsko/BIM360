@@ -1,0 +1,85 @@
+﻿<Window x:Class="NameParsing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NameParsing"
+        mc:Ignorable="d"
+        Title = "KPLN. BIM360" Height="475" Width="600">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Times New Roman" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Margin" Value="10,5,10,5" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Times New Roman" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Margin" Value="10,5,10,5" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock>
+                    <Run>Укажите </Run>
+                    <Run FontWeight="Bold">email </Run>
+                    <Run>для авторизации в BIM360: </Run>
+                </TextBlock>
+                <TextBox x:Name="emailDef" Margin="5,0,5,0"/>
+                <TextBlock>
+                    <Run>Укажите </Run>
+                    <Run FontWeight="Bold">пароль </Run>
+                    <Run>для авторизации в BIM360: </Run>
+                </TextBlock>
+                <PasswordBox x:Name="passwDef" Margin="5,0,5,0"/>
+                <TextBlock>
+                    <Run>Скопируйте </Run>
+                    <Run FontWeight="Bold">ссылку из браузера </Run>
+                    <Run>на нужную страницу в BIM360: </Run>
+                </TextBlock>
+                <TextBox x:Name="urlDef" Margin="5,0,5,0" TextWrapping="Wrap"/>
+                <TextBlock>
+                    <Run>Скопируйте </Run>
+                    <Run FontWeight="Bold">путь из проводника </Run>
+                    <Run>на нужную папку: </Run>
+                </TextBlock>
+                <TextBox x:Name="dirDef" Margin="5,0,5,0" TextWrapping="Wrap"/>
+                <TextBlock Text="Скорость интернета:"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25 px"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="MIN"/>
+                    <TextBlock Grid.Column="1" Grid.Row="0" Text="MAX" HorizontalAlignment="Right"/>
+                </Grid>
+                <Slider x:Name="slider" Minimum="750" Maximum="2500" Height="30" IsDirectionReversed="True" Margin="5" />
+                <Grid x:Name="ExtCheckBoxes">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20 px"></RowDefinition>
+                        <RowDefinition Height="20 px"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Grid.Column="0" Grid.Row="0" x:Name="rvtCheckBox" Height="20" Content="RVT" Margin="5, 0, 0, 0" />
+                    <CheckBox Grid.Column="1" Grid.Row="0" x:Name="pdfCheckBox" Height="20" Content="PDF" Margin="5, 0, 0, 0" />
+                    <CheckBox Grid.Column="0" Grid.Row="1" x:Name="dwgCheckBox" Height="20" Content="DWG" Margin="5, 0, 0, 0" />
+                </Grid>
+                <Button x:Name="btnStrt" Width="60" Height="30" Content="Старт" Click="BtnStrClick" />
+                <ProgressBar Name="pBar" Minimum="0" Maximum="100" Height="25" Margin="5, 10, 5, 0" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
